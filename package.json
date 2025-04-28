@@ -1,0 +1,31 @@
+{
+  "name": "jrbrayjr2006.github.io",
+  "version": "1.0.0",
+  "description": "Portfolio website",
+  "keywords": [
+    "portfolio"
+  ],
+  "homepage": "https://github.com/jrbrayjr2006/jrbrayjr2006.github.io#readme",
+  "bugs": {
+    "url": "https://github.com/jrbrayjr2006/jrbrayjr2006.github.io/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrbrayjr2006/jrbrayjr2006.github.io.git"
+  },
+  "license": "MIT",
+  "author": "James R. Bray, Jr.",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/style.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/style.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.4"
+  },
+  "devDependencies": {
+    "tailwindcss": "^4.1.4"
+  }
+}
